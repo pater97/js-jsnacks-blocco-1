@@ -26,3 +26,10 @@ if (sentinella == true){
 } else {
     stamp.innerHTML = `<div>mi dispiace, non puoi entrare alla festa...</div>`
 }
+
+//correzione
+/*
+si poteva utilizzare incluse() al posto della sentinella :
+
+guestList.includes(guestName)
+*/

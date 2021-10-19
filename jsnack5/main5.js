@@ -5,6 +5,7 @@ Chiedi per 6 volte all’utente di inserire un numero,
 se è dispari inseriscilo nell’array.
 */
 
+/*
 //crazione dell'array 
 const numeri = [];
 //prompt
@@ -36,3 +37,17 @@ if (nSix % 2 == 1) {
 
 console.log(nOne,nTwo,nTrhee,nFour,nFive,nSix);
 console.log(numeri);
+*/
+
+//correzione
+const odd_numbers = []
+
+for (let i = 0; i < 6; i++){
+    const user_number = parseInt(prompt(`scegli un numero`))
+
+    if(user_number % 2 != 0) {
+        odd_numbers.push(user_number)
+    }
+}
+
+console.log(odd_numbers);

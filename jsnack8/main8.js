@@ -5,6 +5,7 @@ Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
 */
 
+/*
 //prompt
 const number = parseInt(prompt(`scrivi un numero di 4 cifre`))
 //array vuota 
@@ -21,4 +22,15 @@ console.log(output);
 //somma dei numeri all'interno dell'array
 const sum = output[0]+output[1]+output[2]+output[3]
 console.log(sum);
+*/
 
+//correzione 
+let sum = 0 
+const four_digit_number = prompt(`inserisci un numero di 4 cifre`)
+
+for(let i = 0; i < four_digit_number.length;i++){
+    const numb = Number(four_digit_number[i])
+    sum += numb
+}
+
+console.log(sum);

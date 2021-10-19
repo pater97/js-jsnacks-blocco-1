@@ -4,6 +4,7 @@ Calcola la somma e la media dei primi 10 numeri.
 */
 //N.B:NON AVENDO CAPITO DALLA CONSEGNA DA DOVE DEVO ESTRAPOLARE QUESTI NUMERI, ripeterò jsnack 8,ma con 10 numeri.
 
+/*
 //prompt
 const number = parseInt(prompt(`scrivi un numero di 10 cifre`))
 //array vuota 
@@ -23,3 +24,15 @@ console.log(sum);
 //calcolo della media
 const avg = sum / output.length;
 console.log(avg);
+*/
+
+
+//correzione
+let sum = 0
+let avg = 0
+for ( let i = 0; i < 10; i++){
+   sum += i 
+}
+avg = sum/10
+
+console.log(avg,sum);
